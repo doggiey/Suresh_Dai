@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suresh Kunwar - Tapasya Learning Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-image: url('Images/Final_bg.jpg'); /* Replace with your actual background image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Profile Section */
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .profile h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .profile p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* Contact Information */
+        .contact-info {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            font-size: 15px;
+            color: #555;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info p i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+
+        /* QR Code Section */
+        .qr-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .qr-section img {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 10px;
+        }
+
+        .qr-section p {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #666;
+            font-size: 20px;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+
+        /* Inquiry Form */
+        .form-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .form-section h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .form-section input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .form-section button {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .form-section button:hover {
+            background-color: #0056b3;
+        }
+            .profile img {
+        border-radius: 50%; /* Circular shape */
+        width: 150px; /* Adjust size */
+        height: 150px; /* Adjust size */
+        object-fit: cover; /* Ensures the image fits inside the circle without distortion */
+        object-position: top; /* Keeps the focus on the top part of the image (important for headshots) */
+        margin-bottom: 10px;
+        border: 3px solid #007bff; /* Optional: border around the image */
+    }
+            /* Ensure the body takes full height */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Flexbox for full-page layout */
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* The container takes up the remaining space */
+        .container {
+            flex: 1;
+            padding: 20px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+        }
+
+        /* Link styles for the footer */
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #007bff;
+        }
+        .qr-section {
+            /* Add any existing styles for the QR section here */
+        }
+
+        .qr-section .description {
+            text-align: justify; /* This justifies the text */
+            margin-left: 20px;  /* Optional: Adjusts left margin for positioning */
+            margin-right: 20px; /* Optional: Adjusts right margin for positioning */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="Images/Suresh.jpg" alt="Suresh Kunwar"> <!-- Replace with your image -->
+            <h1>Suresh Kunwar</h1>
+            <p>C.E.O, Tapasya Learning Center</p>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <a href="tel:+9779841616023" style="text-decoration:none; color:#007bff;">    
+                <p><i class="fas fa-phone-alt"></i>(+977) 9841616023</p>
+            </a>
+            <a href="mailto:surofish@gmail.com" style="text-decoration:none; color:#007bff;">
+            <i class="fas fa-envelope"></i> surofish@gmail.com
+        </a>
+            <p><i class="fas fa-map-marker-alt"></i>Nagarjun-8, Kathmandu, Nepal</p>
+        </div>
+
+        <!-- QR Code Section -->
+        <div class="qr-section">
+            <p>At Tapasya Learning Center, we are transforming the way young minds engage with science. Our mission is to make learning both fun and impactful, through innovative tools and resources that inspire curiosity, creativity, and critical thinking. Together, let's build a brighter future through education.</p>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/Cre8iveScience" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/watch?v=xPkhRpKVGPI" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me/9779841616023" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <!-- Inquiry Form -->
+        <div class="form-section">
+            <h2>Get in Touch</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert("Form submitted successfully!");
+            // Form submission logic can be added here, such as sending data to Google Sheets or backend
+            var formData = new FormData(this);
+    
+            fetch('https://script.google.com/macros/s/AKfycbxzmLjYPHxKlNAFC7_MuuCJEDufQiyX3GehZflJ3NaGIKZZ15zImilTBdFkpybjFeFG/exec', { // Replace with your Google Apps Script URL
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json',
+                }
+            })
+            
+            .then(data => {
+                if (data.status === 'success') {
+                    alert("Thank you for signing up!");
+                } else {
+                    alert("Error: " + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert("There was an error submitting your data. Please try again later.");
+            });
+        });
+    </script> 
+     <body>
+        <div class="container">
+            <!-- Your page content goes here -->
+        </div>
+    
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Tapasya Learning Center. All rights reserved.</p>
+            
+        </footer>
+    </body>
+    
+ 
+
+</body>
+</html>
